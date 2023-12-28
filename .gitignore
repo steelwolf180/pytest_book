@@ -3,3 +3,4 @@ src/magic/magic/__pycache__/settings.cpython-310.pyc
 src/magic/magic/__pycache__/wsgi.cpython-310.pyc
 src/magic/magic/__pycache__/urls.cpython-310.pyc
 .vscode/settings.json
+tests/unit/__pycache__/test_calculate.cpython-310-pytest-7.4.3.pyc
