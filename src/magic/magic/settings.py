@@ -52,10 +52,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'magic.urls'
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/"templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
